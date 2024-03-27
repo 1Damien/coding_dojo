@@ -1,0 +1,27 @@
+h1 {
+    color: white;
+    text-align: left;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+h1 span.Cloud { 
+    color: aqua;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: white;
+    background-color: rebeccapurple;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h3 {
+    color: black;
+    background-color: teal;
+    text-align: right;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
