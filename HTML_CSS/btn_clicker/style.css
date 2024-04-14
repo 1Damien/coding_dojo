@@ -1,0 +1,107 @@
+* {
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.col {
+    display: flex;
+}
+
+#search {
+    padding: 5px;
+    width: 400px;
+}
+
+body {
+    width: 1000px;
+}
+
+.nav {
+    display: flex;
+    border: 3px solid #cccccc;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #cccccc;
+}
+.nav h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+.nav button {
+    background-color: royalblue;
+    color: white;
+    border: 5px solid black;
+    border-width: 3px;
+    padding: 10px ;
+    font-weight: bold;
+    cursor: pointer
+}
+
+.ninja1 {
+    flex-direction: column;
+    flex: 1;
+    margin-top: 1em;
+    border: 3px solid black;
+    margin-right: 10px;
+    height: 150px;
+    padding-left: 10px;
+    padding: 20px;
+}
+
+.ninja1 button {
+    background-color: #ffd966;
+    margin-top: 10px;
+    color: black;
+    border: 5px solid black;
+    border-width: 3px;
+    padding: 5px 15px;
+    font-weight: bold;
+    cursor: pointer
+}
+
+.definition {
+    flex-direction: column;
+    border: 3px solid black;
+    margin-top: 1em;
+    height: 110px;
+    width: 200px;
+    padding: 10px;
+}
+
+.definition button {
+    background-color: #93c47d;
+    color: black;
+    border: 5px solid black;
+    border-width: 3px;
+    padding: 5px 35px;
+    font-weight: bold;
+    cursor: pointer
+}
+
+.ninja2 {
+    height: 150px;
+    width: 720px;
+    flex-direction: column;
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-left: -2px;
+    padding: 20px;
+}
+
+.ninja2 button {
+    margin-top: 10px;
+    background-color: #ffd966;
+    color: black;
+    border: 5px solid black;
+    border-width: 3px;
+    padding: 5px 15px;
+    font-weight: bold;
+    cursor: pointer
+}
+
+.text p {
+    text-align: center;
+
+}

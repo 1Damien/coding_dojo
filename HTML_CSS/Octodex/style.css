@@ -1,0 +1,41 @@
+html {
+    background-color: whitesmoke;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color:cadetblue
+}
+.container {
+
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#octodex {
+    height: 200px;
+    display: flex;
+    vertical-align: middle;
+    background-color: white;
+    justify-content: space-between;
+}
+#octodex_center {
+    height: 200px;
+    display: flex;
+    vertical-align: middle;
+    background-color: aqua;
+    justify-content: space-evenly;
+}
+
+#octodex_end {
+    height: 200px;
+    display: flex;
+    vertical-align: middle;
+    background-color: white;
+    justify-content: space-between;
+}
+p {
+    text-align: center;
+}
