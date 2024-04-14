@@ -1,13 +1,16 @@
+
 .nav {
     display: flex;
-    justify-content: space-evenly;
     background-color: black; 
+    margin: auto;
+    justify-content: center;
 }
 .nav-title {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    
 }
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -18,7 +21,8 @@
     margin-right: 20px;
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    list-style: none;
+    
 }
 .nav-links a {
     color: #fff;
@@ -28,9 +32,9 @@
     font-size: 22px;
     font-weight: bold;
 }
-.btn {
+button.btn {
     background-color: cornflowerblue;
-    border: 1px solid black;
+    border: 25px solid black;
     color: white;
     padding: 5px 5px;
     text-align: center;
@@ -39,41 +43,112 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+
 }
+.mainSection {
+    display: flex;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.col1 {
+    flex: 2;
+}
+.col2{
+    flex: 1;
+}
+
 .profile{
     border: 5px solid grey;
-    margin: auto;
-    max-width: 750px;
-    max-height: 750px;
-    text-align: left;
     padding-left: 30px;
     font-size: 20px;
     margin-top: 20px;   
+    flex: 1;
+    border-top: 70px solid royalblue;
+    
+}
+.profile div {
+    text-align: left;
+    justify-content: center;
 }
 .profile img {
     border-radius: 75%;
     max-width: 120px;
-    margin-top: 50px;
+
+}
+.connection_requests {
+    border: 5px solid grey;
+    text-align: left;
+    margin-top: 20px; 
+    margin-left: 10px;
+    
+}
+.connection_requests img {
+    border-radius: 70;
+    flex-wrap: wrap;
+
+}
+.connection_requests ul{
+    list-style: none;
+    
+}
+.connection_requests h2{
+    text-align: center;
+    background-color: gray;
+    background-size: 20%;
+    color: white;
+    font-size: 25px;
+
+}
+.connection_requests img{
+    border-radius: 75%;
+    max-width: 40px;
+}
+.connection_requests p{
+    display: flex;
+    justify-content: space-between;
 }
 .education{
     border: 5px solid grey;
-    margin-bottom: auto;
-    margin: auto;
-    max-width: 750px;
-    max-height: 750px;
-    text-align: left;
-    padding-left: 30px;
     font-size: 20px;
-    margin-top: 20px; 
-}
-.connection_requests{
-    border: 5px solid grey;
-    float: right;
-    margin: auto;
-    max-width: 250px;
-    max-height: 250px;
+    margin-top: 10px;
+    flex: 1;
     text-align: left;
-    padding-left: 30px;
-    font-size: 20px;
 }
-
+.education h2 {
+    background-color: gray;
+    text-align: left;
+    color: white;
+}
+.your_connections{
+    border: 5px solid gray;
+    
+    margin-left: 10px;
+    margin-top: 30px;
+}
+#num {
+    background-color: black;
+    border-radius: 100%;
+}
+#num2 {
+    background-color: black;
+    border-radius: 35%;
+}
+.your_connections h2 {
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+.your_connections img{
+    border-radius: 75%;
+    max-width: 40px;
+}
+.profile img[src="./images/gear.png"] {
+    width: 10px;
+}
+.profile img[src="./images/map-marker.png"]{
+    width: 10px;
+    
+}
